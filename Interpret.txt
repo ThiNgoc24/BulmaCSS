@@ -1,0 +1,9 @@
+thẻ article được sử dụng để tạo ra một khối chứa các nội dung liên quan đến một chủ đề cụ thể
+    chẳng hạn như bài báo hoặc tin tức
+lớp "tile" được sử dụng để định dạng ô lưới chứa nội dung
+lớp "is-ancestor" được sử dụng để định dạng cha của tất cả các ô lưới,
+lớp "is-parent" được sử dụng để định dạng ô lưới chứa các ô lưới con,
+lớp "is-child" được sử dụng để định dạng các ô lưới con
+lớp "is-vertical" được sử dụng để tạo ra các ô lưới dọc
+lớp "is-vcentered" được sử dụng để căn giữa các phần tử theo chiều dọc, chẳng hạn như văn bản hoặc hình ảnh trong một ô lưới.
+lớp "is-justify-content-space-evenly" được sử dụng để canh giữa các phần tử trong một ô lưới theo chiều ngang và tạo ra khoảng cách đều giữa chúng.
