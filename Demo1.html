@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <style> 
+           .hero {
+              background: black url(image/vf8.jpg) center / cover;
+           }
+           @media (max-width: 1024px) { .hero { background: black url(image/vf8.jpg) center / cover; } }
+           @media (max-width:  768px) { .hero { background: black url(image/vf8.jpg) center / cover; } }           /*responsive*/
+          @media (max-width: 768px) {
+              :root {
+                 font-size: 90%;
+              }
+           }
+        </style>
+    </head>
+    <body>
+    <section class="hero is-fullheight">
+      <nav class="hero-head">
+        <div class="columns is-desktop is-marginless heading has-text-weight-bold">        
+          <div class="column is-left desktop">
+            <p class="navbar-item has-text-white">VinFast VF 8 Eco</p>
+            <p class="navbar-item has-text-white">VinFast VF 8 Plus</p>
+            <p class="navbar-item has-text-white">VinFast VF 9</p>          
+            <p class="navbar-item has-text-white">VinFast VF 5</p>
+         </div>
+      <div class="column is-right is-desktop style="margin-right: -1000px">
+            <p class="navbar-item desktop has-text-white desktop">SHOP   </p>
+            <p class="navbar-item desktop has-text-white desktop">SIGN IN</p>
+            <figure class="navbar-item image">
+                <i class="fas fa-3x fa-bars has-text-white"
+                    style="width: 1rem; height: 1rem;"></i>
+            </figure>
+         </div>
+    </div>
+</nav>
+<header class="hero-body">
+    <div class="is-overlay has-text-centered single-spaced" style="top: 92px;">
+        <h2 class="subtitle is-4 has-text-weight-light has-text-white">Vinfast</h2>
+        <h1 class="title is-1 has-text-white" style="font-style: italic; font-size: 100px;">VF 8</h1>
+    </div>
+</header>
+<main class="hero-foot center" style="padding: 2rem;">
+    <div id="grid" >
+        <div class="center-column">
+            <p class="has-text-right has-text-white">The quickest electric car in Vietnam, with record-setting<br>acceleration, range and performance.</p>
+        </div>
+        <div class="center-column">
+            <p class="title has-text-white">
+                <i class="fas fa-tachometer-alt has-text-grey-light"
+                    style="width: 0.75em; height: 0.75em;"></i>
+                5.5<span class="is-size-5">s</span>
+            </p>
+            <p class="subtitle has-text-white is-7">0-100 km/h</p>
+        </div>
+        <div class="center-column" style="border-left: 1px solid gray;">
+            <p class="title has-text-white"><span class="is-size-5">+</span>400<span class="is-size-5">km/h</span></p>
+            <p class="subtitle is-7 has-text-white">Top Speed</p>
+        </div>
+        <div class="center-column" style="border-left: 1px solid gray;">
+            <p class="title has-text-white">180</span><span class="is-size-5">mi</span></p>
+            <p class="subtitle is-7 has-text-white">Mile Range</p>
+        </div>
+        <br>
+        <div class="center-column">           
+            <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold" style="width: 60%; border: 0.15em solid white; position: relative; left: 20%;"> Reserve Now</a>
+        </div>
+    </div>
+</main>
+</section>
+</body>
+</html>
